@@ -1,0 +1,25 @@
+{
+  "name": "ios-simulator-tools",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "iOS Simulator dev tools control",
+  "module": "lib/index.js",
+  "types": "lib/types",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "bin": "lib/index.js",
+  "keywords": [
+    "simulator",
+    "ios"
+  ],
+  "author": "Maurice Conrad",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.4",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "ts-command-line-args": "^2.5.1"
+  }
+}
